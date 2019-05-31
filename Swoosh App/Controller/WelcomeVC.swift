@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    @IBAction func unwind(unwind: UIStoryboardSegue){
+        
+    }
 }
 
